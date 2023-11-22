@@ -1,10 +1,11 @@
 # Intervew Question
 
+## Company : NA
+### QUESTION : 13 : For given array find the maximum diff between 
 
 
 
-
-## Comp : Ignitarium, By : Basil AP @20jun23
+## Company : Ignitarium, By : Basil AP @20jun23
 ### QUESTION : 13 : What is Output of the code snippet.
 ```
 #include <stdio.h> 

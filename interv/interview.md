@@ -8,7 +8,8 @@
 
 ## Company : Innominds. Banglore - Royal E. Project
 
-### QUESTION : 19 :  
+
+### QUESTION : 19 :  string manipulation
 char str[] = "This is good news";
 output = "sihT si doog swen";
  
@@ -27,11 +28,11 @@ output = "sihT si doog swen";
 	}
 	
  
-### QUESTION : 19 : Sor array, who has only two type elements (7, 8)
+### QUESTION : 18 : Sor array, who has only two type elements (7, 8)
 int arr[] = {7,8,7,7,...8}; size = 100
 int arr[] = {7,7,7..8,8,8};
  
-CASE
+Logic : CASE
 1. 7 7 -> i++
 2. 7 8 -> ok 
 3. 8 7 -> swap
@@ -73,7 +74,7 @@ CASE
 	}
  
  
-### QUESTION : 18 : int in = 0x3423; int out = 0x4332;
+### QUESTION : 17 : int in = 0x3423; int out = 0x4332;
 
 	34 23
 	43 32
@@ -86,9 +87,7 @@ CASE
 	num1 | num2            //
 
 
-### QUESTION : 17 : Sort a array, array has only binary number. use only one loop 
-
-### QUESTION : 16 : For given array, sort the array
+### QUESTION : 16 : For given array, sort the array, Sort a array, array has only binary number. use only one loop 
 
 int arr[] = {0,1,0,0,...,1} //size = 20
  
@@ -154,25 +153,15 @@ output: "Raju am Hi"
 ### QUESTION : 10 Draw the pattern
 ```
 *         * 
-
  *       *  
-
   *     *   
-
    *   *    
-
     * *     
-
      *      
-
     * *     
-
    *   *    
-
   *     *   
-
  *       *  
-
 *         * 
 ```
 ### Q09 what is abstract class?

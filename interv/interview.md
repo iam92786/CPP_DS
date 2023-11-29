@@ -1,9 +1,109 @@
 # Intervew Question
-
+### QUESTION : 14 : Sort a array, array has only binary number. use only one loop 
 ## Company : NA
-### QUESTION : 13 : For given array find the maximum diff between 
 
 
+
+
+
+## Company : Innominds. Banglore - Royal E. Project
+
+### QUESTION : 19 :  
+char str[] = "This is good news";
+output = "sihT si doog swen";
+ 
+ 
+	int j = 0;
+	for(int i = 0; i < 0; i++)
+	{
+		if(str[i] == ' ')
+		{
+			for(j = i-1; j >= 0 || str[j] == ' '; j--)
+			{
+				printf("%c", str[j]);
+			}
+		}
+	
+	}
+	
+ 
+### QUESTION : 19 : Sor array, who has only two type elements (7, 8)
+int arr[] = {7,8,7,7,...8}; size = 100
+int arr[] = {7,7,7..8,8,8};
+ 
+CASE
+1. 7 7 -> i++
+2. 7 8 -> ok 
+3. 8 7 -> swap
+4. 8 8 -> j--
+	
+	int i = 0;
+	j = 100;
+	int temp;
+	
+	while(i <= j)
+	{
+		if(arr[i] == 7 && arr[j] == 8)
+		{
+			//No swap
+			i++;
+			j--;
+		}
+	
+		if(arr[i] == 8 && arr[j] == 7)
+		{
+			//swap elements arr[i]<--> arr[j]
+			temp = arr[i];
+			arr[i] = arr[j];
+			arr[j] = temp;
+			i++;
+			j--;
+		}
+	
+		if(arr[i] == 7 && arr[j] == 7)
+		{
+			i++;
+		}
+	
+		if(arr[i] == 8 && arr[j] == 8)
+		{
+			j--;
+		}
+	
+	}
+ 
+ 
+### QUESTION : 18 : int in = 0x3423; int out = 0x4332;
+
+	34 23
+	43 32
+	
+	num = 0x3423;
+	
+	num1 = (0xf0f0 & num)  >> 4     //0302
+	num2 = (0x0f0f & num)  << 4      //4030
+	
+	num1 | num2            //
+
+
+### QUESTION : 17 : Sort a array, array has only binary number. use only one loop 
+
+### QUESTION : 16 : For given array, sort the array
+
+int arr[] = {0,1,0,0,...,1} //size = 20
+ 
+
+
+### QUESTION : 15 : int var = 0x23; out = 0x32;
+ 
+ 
+	int first = (var & 0xf0);
+	int second = var & 0x0f);
+	
+	int out = (second << 4) | (first );
+
+
+### QUESTION : 14 : int num = 0x23; toggel the 7th bit of this number
 
 ## Company : Ignitarium, By : Basil AP @20jun23
 ### QUESTION : 13 : What is Output of the code snippet.

@@ -8,8 +8,11 @@ int out = 0x4332;
 
 int main (void)
 {
-	int num = 0x3423;
+	//int num = 0x3423;
+	int num = 0x5635;
 	printf("%x\n",num);
+
+
 
 	int n = (num & 0x0f0f) << 4 | ((num & 0xf0f0) >> 4);
 

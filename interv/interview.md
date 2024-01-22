@@ -3,9 +3,51 @@
 ## Company : NA
 
 
+## QCOM Noida Round - 01
+ 
+### QUESTION : 54 : Void pointer
+### QUESTION : 53 : Storage class scope - c memory layout - scope of each class
+### QUESTION : 52 : extern and static syntax
+ 
+### QUESTION : 51 : Count set bits in a number
+### QUESTION : 50 : Set bits in a integer
+### QUESTION : 49 : void pointer func printing with some modifications for static int and int ++
+### QUESTION : 48 : String reverse with some modifications for str+2 printing
+ 
 
+## Company :  VVDN -  Round - 02
 
-## Company :  VVDN Technology
+### QUESTION : 47 
+process vs thread
+kernel compilation steps
+New driver adding steps
+defconfig and .config details
+Typecasting and void pointer
+Menuconfig and make cmds
+Challenges faced in project
+system calls and IPC
+imp function in a device driver code
+char device driver
+ 
+### QUESTION : 46
+Output of below ---->>>
+{
+	char *data = "abc";
+	data[2] = 'd';
+	printf("%c",*data);
+}
+Output of below ---->>>
+
+### QUESTION : 45
+int main(){
+	int *ptr, a=10;
+	ptr=&a;
+	printf("%d,%d\n",*ptr,a):
+	*ptr += 1;
+	printf("%d,%d\n",*ptr,a);
+ 
+return 0;
+}
 
 ### QUESTION : 44 : To count num of set bits in a byte. (only using bit wise operations).
 ```
@@ -105,7 +147,7 @@ H/W		Low level Drivers		High level Drivers		VFS node	user space
 
 Explain the purpose and functionality of the bootloader in the context of a BSP.
 ```
-BOOTLOADER : Power-OFF state ----> OS take control
+BOOTLOADER : Power-OFF state -- to --> OS take control
 ```
  
 ### QUESTION : 38 : Explain the steps involved in porting an application from one Linux distribution to another for an embedded system.
@@ -160,9 +202,9 @@ f_ops structure
 
 
 
-## Company : Innominds. Banglore - Royal E. Project
+## Company : Innominds. Banglore.
 
-### QUESTION : 30 : Interview Question @ Manish. (ref : Screenshot)
+### QUESTION : 30 : Interview Question (ref : Screenshot)
 	while(1)	//STATEMENT : Bit wise operation to achive this logic pattern in a while loop.
 	{
 		1000 0001 

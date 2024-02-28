@@ -3,6 +3,58 @@
 ## Company : NA
 
 
+## ACL Digital-Volynsis Round - 02
+### QUESTION : 59 : String to array conversion
+
+### QUESTION : 58 : 
+```
+1st data: XXXX XX11 1111 1111
+2nd data: XXXX XX22 2222 2222
+3rd data: XXXX XX33 3333 3333
+
+32bit data: XX33 3333 3333 2222 2222 2211 1111 1111
+					 A9	    0	
+uint32_t pack(uint16_t data_1, uint16_t data_2, uint16_t data_3)
+```
+
+## Mirafra Round - 03 By Director
+### QUESTION : 57 : Convert littel indian to Big indian without using bit wise operation.
+
+### QUESTION : 56 : Add node in to the Linked List in sorted manner always.
+
+### QUESTION : 55 : Find the max freq of any digit in a int number
+```
+
+#include<stdio.h>
+int main (void)
+{
+	int num = 123453;
+	int arr[10] = {0,0,0,0,0,0,0,0,0,0};
+	int temp = 0;
+	int max = 0;
+	int freq;
+	for(int i = 0; i < num; i++)
+	{
+		temp = num%10;
+		arr[temp]++;
+		num = num/10;
+		printf("%d\n",num);
+	}
+	for(int j = 0; j < 10; j++ )
+	{
+		printf("%d = %d\n",j,arr[j]);
+		//max
+		if(arr[j] > max)
+		{
+			freq = j;
+			max = arr[j];
+		}
+	}
+	printf("freq digit = %d\n",freq);
+	return 0;
+}
+
+```
 ## QCOM Noida Round - 01
  
 ### QUESTION : 54 : Void pointer
@@ -16,7 +68,6 @@
  
 
 ## Company :  VVDN -  Round - 02
-
 ### QUESTION : 47 
 process vs thread
 kernel compilation steps

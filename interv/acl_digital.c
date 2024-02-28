@@ -1,6 +1,6 @@
 
 
-
+//QUESTION - 01
 
 Input string: "1234567890"
 Output:
@@ -43,6 +43,8 @@ void string_to_bcd(uint8_t *bcd, char *string)
 	}
 }
 
+
+
 int main() {
     char bcd_string[11];
     uint8_t org_seq[5] = {0};
@@ -68,7 +70,8 @@ int main() {
 }
 
 ==========================================================================================
-*/
+*/							
+//QUESTION - 02
 /*
 
 1st data: XXXX XX11 1111 1111

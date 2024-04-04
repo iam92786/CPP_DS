@@ -5,7 +5,7 @@
 
 ## Samsung Semicon
 ### QUESTION : 61 : Write c program for Binary search for sorted array
-### QUESTION : 60 : bit swap in a int number (nth bit replace with mth bit)
+### QUESTION : 60 : Bit swap in a int number (nth bit replace with mth bit)
 ```
 #define BV(x) (1 << x)
 int main (void)
@@ -16,6 +16,7 @@ int main (void)
 	printf("Enter number num, nth bit, mth bit\n");
 	scanf("%d %d %d",&num, &nth, &mth);
 	printf("num = %x\nnth = %x\nmth = %x\n",num,nth,mth);
+
 	if(((num & BV(nth)) >> nth) != ((num & BV(mth)) >> mth))
 	{
 		printf("Unequal -> SWAP\n");
@@ -26,12 +27,12 @@ int main (void)
 	// 0 ^ 1 = 1
 	// 0 ^ 0 = 0
 	
-	//2nd  0th
+	//nth  mth
 	// 0   0  = No change
 	// 1   1  = no change
-	
 	// 1   0  = swap
 	// 0   1 = swap
+
 	return 0;
 }
 ```

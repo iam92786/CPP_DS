@@ -3,6 +3,38 @@
 ## Company : NA
 
 
+## Samsung Semicon
+### QUESTION : 61 : Write c program for Binary search for sorted array
+### QUESTION : 60 : bit swap in a int number (nth bit replace with mth bit)
+```
+#define BV(x) (1 << x)
+int main (void)
+{
+//PROBLEM - 01 : swap the nth bit with mth bit
+
+	int nth, mth, num;
+	printf("Enter number num, nth bit, mth bit\n");
+	scanf("%d %d %d",&num, &nth, &mth);
+	printf("num = %x\nnth = %x\nmth = %x\n",num,nth,mth);
+	if(((num & BV(nth)) >> nth) != ((num & BV(mth)) >> mth))
+	{
+		printf("Unequal -> SWAP\n");
+		num = num ^ BV(nth);
+		num = num ^ BV(mth);
+	}
+	printf("After SWAP : num = %x\nnth = %x\nmth = %x\n",num,nth,mth);
+	// 0 ^ 1 = 1
+	// 0 ^ 0 = 0
+	
+	//2nd  0th
+	// 0   0  = No change
+	// 1   1  = no change
+	
+	// 1   0  = swap
+	// 0   1 = swap
+	return 0;
+}
+```
 ## ACL Digital-Volynsis Round - 02
 ### QUESTION : 59 : String to array conversion
 

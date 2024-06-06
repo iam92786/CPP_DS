@@ -198,6 +198,7 @@ int main()
 ``` ANSWER
 static memory allocation --> memory assign during compile time --> Size fixed --> 
 	- Faster execution, simlpe
+	- consecutive memory allocation
 	- runnning out of memory during run time
 	eg : Array
 

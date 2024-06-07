@@ -3,15 +3,12 @@
 ## Company : NA
 
 ## IBM
-### 
-
-### QUESTION : 63 :
+### QUESTION : 64 : deadlock condition
 ```
-deadlock condition
 process - p1	-> 	
 process - p2	-> 
 ```
-### QUESTION : 62 : in 8 bit number, count the set bit, and also increment the count of each set bit ocuurance , diff counter for each bits in 8 bit number, each counter have diff thresold, once the counter reach to certain thresold tak diff action like T1, T2, T3
+### QUESTION : 63 : in 8 bit number, count the set bit, and also increment the count of each set bit ocuurance , diff counter for each bits in 8 bit number, each counter have diff thresold, once the counter reach to certain thresold tak diff action like T1, T2, T3
 
 ```
 /*DEFINE*/
@@ -88,10 +85,9 @@ int main (void)
 }
 
 ```
-//-----------------------------------------------------------------------//
-//write Hello world 100 times, without using loop and go to.
+### QUESTION : 62 : Write Hello world 100 times, without using loop and go to.
+```
 #include<stdio.h>
-
 void printHello()
 {
 	static int count = 100;
@@ -115,7 +111,7 @@ int main (void)
 	return 0;
 }
 
-//-------------------------------------------//
+//Write above prog in cpp -------------------------------------------//
 
 class printf
 {
@@ -140,9 +136,6 @@ int main (void)
 
 	return 0;
 }
-
-
-
 ```
 
 ## Samsung Semicon

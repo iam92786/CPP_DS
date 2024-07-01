@@ -2,7 +2,29 @@
 ### QUESTION : 14 : 
 ## Company : NA
 
-## IBM
+## ARM : Round - 3
+### QUESTION : 64 : Write Macro for set/reset(given by) next n`s(3bit or 4bit or 5bit.. given by user) number fo bit from the given pos. wherea s nth bit is  
+```
+int set_clear_bit (int num, int cond, int start, int end)
+num = 0xffff ffff
+cond = 0 - reset
+	1 - set (1)
+start - start pos of mask
+end - end pos of mask
+```
+### QUESTION : 64 : There is a vaiable which is used by interrup hnadler(top half) as well as bottom half of the same interrupt. tell me the synchronization mechanism for that ?
+### QUESTION : 64 : code snippet - malloc , memory leakge
+## ARM : Round - 2
+### QUESTION : 64 : Write Macro for fetch next n`s(3 or 4 or 5.. given by user) number fo bit from the given pos. wherea s nth bit is  
+### QUESTION : 64 : Memory alignment, lets a page size is 4k, and only 2k memory is left on ram, how we can align this 2k memory to page size of 4k?
+### QUESTION : 64 : code snippet
+## ARM : Round - 1 @Adam
+### QUESTION : 64 : FIZZ BUZZ c coding
+### QUESTION : 64 : Virtual ANd Physical Address conversion
+### QUESTION : 64 : Process and Thread
+### QUESTION : 64 : Spin lock
+
+## IBM : round - 1
 ### QUESTION : 64 : deadlock condition
 ```
 process - p1	-> 	

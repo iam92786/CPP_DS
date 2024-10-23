@@ -1,13 +1,13 @@
 # Intervew Question
 
 ## Company : NA | Round - x
-### QUESTION : 14 : GGiven two strings S and T, which may contain the # character representing a backspace, process both strings such that when a backspace (#) occurs, it removes the character immediately to its left (if any). After processing all backspaces in both strings, compare the final versions of the two strings. You are required to implement this comparison without using the strcmp function.
-
-Write a function that returns: 0 if both processed strings are equal. And -1 if the processed strings are not equal.
+### QUESTION : 14 : 
 
 
 ## Company : Nivida | Round - 1 | HackerRank
-### QUESTION : 75 : 
+### QUESTION : 75 : Given two strings S and T, which may contain the # character representing a backspace, process both strings such that when a backspace (#) occurs, it removes the character immediately to its left (if any). After processing all backspaces in both strings, compare the final versions of the two strings. You are required to implement this comparison without using the strcmp function.
+
+Write a function that returns: 0 if both processed strings are equal. And -1 if the processed strings are not equal.
 
 ## ARM : Round - 3
 ### QUESTION : 74 : Write Macro for set/reset(given by) next n`s(3bit or 4bit or 5bit.. given by user) number fo bit from the given pos. wherea s nth bit is  

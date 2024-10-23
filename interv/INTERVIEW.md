@@ -1,6 +1,8 @@
 # Intervew Question
 ### QUESTION : 14 : 
-## Company : NA
+## Company : NA | Round - x
+### QUESTION : 14 : 
+
 
 ## ARM : Round - 3
 ### QUESTION : 74 : Write Macro for set/reset(given by) next n`s(3bit or 4bit or 5bit.. given by user) number fo bit from the given pos. wherea s nth bit is  

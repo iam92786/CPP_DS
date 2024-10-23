@@ -4,6 +4,9 @@
 ### QUESTION : 14 : 
 
 
+## Company : Nivida | Round - 1 | HackerRank
+### QUESTION : 75 : 
+
 ## ARM : Round - 3
 ### QUESTION : 74 : Write Macro for set/reset(given by) next n`s(3bit or 4bit or 5bit.. given by user) number fo bit from the given pos. wherea s nth bit is  
 ```
@@ -16,11 +19,13 @@ end - end pos of mask
 ```
 ### QUESTION : 73 : There is a vaiable which is used by interrup hnadler(top half) as well as bottom half of the same interrupt. tell me the synchronization mechanism for that ?
 ### QUESTION : 72 : code snippet - malloc , memory leakge
+
 ## ARM : Round - 2
 ### QUESTION : 71 : Write Macro for fetch next n`s(3 or 4 or 5.. given by user) number fo bit from the given pos. wherea s nth bit is  
 ### QUESTION : 70 : Memory alignment, lets a page size is 4k, and only 2k memory is left on ram, how we can align this 2k memory to page size of 4k?
 ### QUESTION : 69 : code snippet
-## ARM : Round - 1 @Adam
+
+## ARM | Round - 1 | By Adam
 ### QUESTION : 68 : FIZZ BUZZ c coding
 ### QUESTION : 67 : Virtual ANd Physical Address conversion
 ### QUESTION : 66 : Process and Thread

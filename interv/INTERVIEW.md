@@ -1,5 +1,5 @@
 # Intervew Question
-### QUESTION : 14 : 
+
 ## Company : NA | Round - x
 ### QUESTION : 14 : 
 

@@ -1,7 +1,9 @@
 # Intervew Question
 
 ## Company : NA | Round - x
-### QUESTION : 14 : 
+### QUESTION : 14 : GGiven two strings S and T, which may contain the # character representing a backspace, process both strings such that when a backspace (#) occurs, it removes the character immediately to its left (if any). After processing all backspaces in both strings, compare the final versions of the two strings. You are required to implement this comparison without using the strcmp function.
+
+Write a function that returns: 0 if both processed strings are equal. And -1 if the processed strings are not equal.
 
 
 ## Company : Nivida | Round - 1 | HackerRank

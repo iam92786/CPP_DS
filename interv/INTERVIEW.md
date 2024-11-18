@@ -4,6 +4,16 @@
 ### QUESTION : 14 : 
 
 
+## Company : Moschip | Round - 1 | Anil Kumarl
+### QUESTION : 77 
+2)Find first highest and second highest numbers in below array without sorting
+int arr[10] = {5,10,15,3,9,21,7,12,2,16};
+
+### QUESTION : 76
+1)Write a C program to rotate bits left the input by number of times passed through Function
+int Shift_Input(unsigned short input, int num_of_times);
+input = 0x2345; num_of_times =4 output = 0x3452
+
 ## Company : Nivida | Round - 1 | HackerRank
 ### QUESTION : 75 : Given two strings S and T, which may contain the # character representing a backspace, process both strings such that when a backspace (#) occurs, it removes the character immediately to its left (if any). After processing all backspaces in both strings, compare the final versions of the two strings. You are required to implement this comparison without using the strcmp function.
 

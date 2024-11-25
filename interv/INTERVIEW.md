@@ -4,6 +4,19 @@
 ### QUESTION : 14 : 
 
 
+## Company : KPIT | Round - 1 |
+### QUESTION : 78 Clear all the left bits from the nth bit position
+```
+char num =	0xff;
+char clr = (1 << 3);	//0000 1000
+
+//do 2nd complemet of variable "clr", by : clr+1
+clr = //1111 0000
+
+perform AND opr
+num = num & clr;
+```
+
 ## Company : Moschip | Round - 1 | Anil Kumarl
 ### QUESTION : 77 
 2)Find first highest and second highest numbers in below array without sorting

@@ -1,8 +1,11 @@
 # Intervew Question
 
 ## Company : NA | Round - x
-### QUESTION : 14 : 
+### QUESTION : 79 : 
 
+
+## Company : Harman | Round - 01 | Seleted
+### QUESTION : 79 : In Linked List, Find the linke dlist node data match with given number in the function arguments, If it is find then remove that particular node form the list.
 
 ## Company : KPIT | Round - 1 |
 ### QUESTION : 78 Clear all the left bits from the nth bit position

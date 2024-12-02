@@ -4,6 +4,77 @@
 ### QUESTION : 79 : 
 
 
+## Company : QUALCOMM | Round - 1 | Rejected
+### QUESTION : 83 : what is Static and dynamic library ?
+### QUESTION : 83 : library for user - task to be ofload to some diff thread.
+//user 2 api -> work post   -> func(arg)    -> function 
+//            -> work collect   -> retur check ststus -> 
+
+
+int *sum_num(int num1, int num2)
+
+thread_handler(arr[0])
+{
+    &sum_num(int , int);   
+}
+arr[] = {
+        sum_num(),  //0
+        sub_num(),  //1
+        .
+        .
+        .
+        
+    }
+}
+
+int work_post(arr[])
+{
+    for()
+    //create thread()
+    pthread_create(..<thread_handler>,);
+    
+}
+int work_collect()
+{
+}
+
+### QUESTION : 82 : A process have 7 thread, criticel section okay to access by 5 thread in parallel, 
+
+void criticle_sec()
+{
+    sem++;
+    
+    if == 5 -> wait
+    
+    int num;    //criticle section
+    
+    sem--;
+}
+### QUESTION : 81 : //Dyanic allocate memory for 4 col and 3 row
+int arr[3] = {0};
+
+int *ptr1 = (int *)malloc (sizeof(int) * 4);
+arr[0] = ptr1;
+
+ *ptr1 = (int *)malloc (sizeof(int) * 4);
+arr[1] = ptr1;
+
+ *ptr1 = (int *)malloc (sizeof(int) * 4);
+arr[2] = ptr1;
+
+
+### QUESTION : 80 : warpper to malloc - 4k 4096byte alligned address to 
+void malloc4k(int mm_size)
+{
+    int page;
+    size = 4096;
+    mm_req = 
+
+    int *ptr = (int *)malloc(sizeof(mm_size));
+    
+    int *ptr2 = (int *)malloc(sizeof(size - mm_size));
+}
+
 ## Company : Harman | Round - 01 | Seleted
 ### QUESTION : 79 : In Linked List, Find the linke dlist node data match with given number in the function arguments, If it is find then remove that particular node form the list.
 

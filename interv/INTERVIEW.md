@@ -1,12 +1,50 @@
 # Intervew Question
 
 ## Company : NA | Round - x
-### QUESTION : 79 : 
+### QUESTION : 84 : 
 
+
+## Company : Harman | Round - 2
+### QUESTION : 87 : function pointer, 
+### QUESTION : 86 : Constant pointer
+### QUESTION : 85 : swap even and odd bit of 32-bit number. input number is 0x55 55 55 55  //0101 0101. output 1010 1010 //out = 0xaa aa aa aa
+
+
+### QUESTION : 84 : //2 string str1, str2, str1 = "abc b", str2 = "bca" find the if str all char is present in str1.
+```
+int main (void)
+{
+    printf("Hello\n");
+    char str1[] = "a bcd b";
+    char str2[] = "a b ed";
+    int len1 = sizeof(str1);    //7
+    int len2 = sizeof(str2);
+    printf("%d\n",len2);        //4
+    int j = 0;
+    for(int i = 0; i < (len2-1); i++)
+    {
+        for(j = 0 ; j < (len1 - 1); j++)
+        {
+            if(str2[i] == str1[j])  //  e == ?          b == b, a==a
+            {
+                //printf("%c",str2[i]);
+                break;
+            }
+        }
+        if(j == (len1-1))
+        {
+            printf("Failed\n");//printf("%c\n",str2[i]);
+            return 0;
+        }
+    }
+    printf("Succes\n");   
+    return 0;
+}
+```
 
 ## Company : QUALCOMM | Round - 1 | Rejected
 ### QUESTION : 83 : what is Static and dynamic library ?
-### QUESTION : 83 : library for user - task to be ofload to some diff thread.
+### QUESTION : 83 : library for user - task to be ofload to some diff thread. (eg : In a function pass another function as arguments)
 //user 2 api -> work post   -> func(arg)    -> function 
 //            -> work collect   -> retur check ststus -> 
 

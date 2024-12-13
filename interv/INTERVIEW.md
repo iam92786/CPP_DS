@@ -1,10 +1,171 @@
 # Intervew Question
 
-## Company : NA | Round - x
-### QUESTION : 84 : 
+## Company : HARMAN | Round - 3 | 2.15 hr
+### QUESTION : 91 : Measure the 4l water by using 3l and 5l jug
+```
+//3L
 
+//5L
 
-## Company : Harman | Round - 2
+masure 4L of water 
+
+5-3 = 2
+
+5L 	3L
+5
+2
+
+2.5 + 1.5 = 
+
+```
+### QUESTION : 90 : fetch bit packages from the packets of data
+```
+#define BV(x)	(1 << x)
+int numTomask(int num)
+{
+	int temp = 0
+	while(num)
+	{
+		temp = temp | BV(1);
+		--num;
+	}
+	return temp;
+}	
+	
+int main (void)
+{
+	char pack[256] = {...};
+	int payload = 0;
+	//H(2) = 0x0A0B				
+	//L(2) = 0x00**
+	
+	int head = 0x0A0B
+	int mask4 = 0xffff;
+	int maskv;
+	
+	int temp;
+	
+	while(pack)
+	{
+		//read First 2 bytes from the packet
+		temp = pack & mask4;
+		if(temp == head)	//compare
+		{															
+			//read L
+			temp = pack & (maks4 << 16);			
+			maskv = numTomask(temp);
+			payload = pack & (maskv << 32);			
+		}
+		else
+		{
+			pack = pack/2;
+		}
+	}
+	return 0;
+}
+
+```
+### QUESTION : 89 : Implement parking loat, park = 20 cars, car come par_id, car_reg number, //car leaving park--,
+```
+struct v_data{
+	struct v_data *next;
+	int car_reg;
+	int par_id;
+};
+
+int park = 0;	//LIMIT = 20
+int space = 0xfffff	//Bit wise array of 20 bit, 
+
+int car_en(struct v_data v1)
+{
+	//check valid register car
+	if(CAR_REG_ID == VALID)
+	{
+		v1.car_reg = CAR_REG_ID
+				
+		//chack park limit
+		if(park <= 20)
+		
+			mutex_lock;
+			park++;
+			
+			mutex_unlock;
+			
+			if(v1.car_reg == MATCH)	//match in db
+			{
+				//check corresponding parking id
+				v1.par_id = parking_ID;	//from database
+			}
+			else
+			{
+				//make new entry
+				make new node in list
+				add_new_entry(struct v_data v1);
+			}
+		}
+		else
+		{
+			printf("NO PARKING SPACE !!\n");
+			return 0;
+		}
+	}
+	else
+	{
+		printf("NOT VALID!!\n");
+	}	
+	return v1.par_id;	
+}
+
+void car_exit(struct v_data v1)
+{
+	if(v1.car_reg == VALID && v1.par_id == VALID)
+	{
+		//dec park variable	
+		mutex_lock;
+		park--;
+		mutex_unlock;
+		v1.par_id = 0;
+	}		
+}
+int main (void)
+{	
+	return 0;
+}
+```
+### QUESTION : 88 : Write a code two print number from 0 to 100 odd printed from t1, and even printed from t2;
+```
+void thread1_print()	//odd
+{
+	int num = 1;
+	while(num <= 100)
+	{
+		printf("Odd Number %d\n",num);
+		num = num+2;
+		signal_snd(t2);
+		signal_rcv(t1);
+	}	
+}
+
+void thread2_print()
+{
+	num = 2;
+	while(num <= 100)
+	{
+		signal_rcv(t2);
+		printf("Even Number %d\n",num);
+		num = num+2;
+		signal(t1)
+	}
+}
+
+int main (void)
+{
+	pthread_create(T1);	//thread - 1
+	pthread_create(T2);	//thread
+	return 0;
+}
+```
+## Company : Harman | Round - 2 | CLEAR
 ### QUESTION : 87 : function pointer, 
 ### QUESTION : 86 : Constant pointer
 ### QUESTION : 85 : swap even and odd bit of 32-bit number. input number is 0x55 55 55 55  //0101 0101. output 1010 1010 //out = 0xaa aa aa aa

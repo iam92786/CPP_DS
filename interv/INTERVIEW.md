@@ -1,5 +1,143 @@
 # Intervew Question
 
+
+
+## Company : COMP | Round - 3 | 2.15 hr
+### QUESTION : 9999 : 
+
+
+## Company : Sasken Technolog | Round - 2 | 1.45 hr
+### QUESTION : 98 : Datatype in 32 bit machine and 64-bit machine
+```
+32 - bit	2^31	~4GB
+1 CPU CYCEL - 32bit data
+int	4 
+char	1
+float	4
+long	8
+
+int *ptr	8
+char *ptr	8
+
+
+64 - bit	2^63
+1 CPU CYCEL - 64bit data
+int	8
+char	1
+float	8
+long	16
+
+int *ptr	8
+char *ptr	8
+```
+
+
+
+### QUESTION : 97 : RAM size is limited, then which soc will you chose 32bit machine or 64bit machine ?
+```
+1GB RAM
+1. Performance
+```
+### QUESTION : 96 : what is happened/diff in 32-bit and 64bit machine in after data fetch and store in register ?
+```
+CASE : Data -> reg, 
+```
+### QUESTION : 95 : Max range, Data overflow, subtraction and addition in  
+```
+	char num1 num2;	// -126 - 127
+	char num3;
+	num3 = -126;		//
+	
+	num1 = 127;
+	num2 = 1;
+	
+	num1 = num1 + num2;	// It will show negative number.
+	num3 = num3 - 1;	//it will go outof the range of signe char datatype
+	
+	//1	0000 0001
+	//127  0111 1111
+	//	1000 
+
+```
+### QUESTION : 94 : Function pointer and its size ?, in 32 bit and 64 bit machine, and sizeof function pointer array?  
+### QUESTION : 93 : Recursive Function, with global, static, and withput global and static data ?
+```
+char function(int, char)
+char function(int, char)
+char function(int, char)
+//int num;	//limit 10
+int main (int)
+{
+	char (*funt_ptr[4]) (int, char);
+	sizeof(funt_ptr);		//sizeof 8*4 byte
+		
+		
+	if(num >= 10)
+		return 0;
+	main (num++);	//We can call main , it will create record/space in Stack area, after some iteration , No space will left in stack, kernel will terminate process, struct_mm 
+	
+	
+	return 0;
+}
+```
+### QUESTION : 92 : Thread Synchoronozation in linux
+```
+create 2 thread, 
+t1 inc
+t2 print
+
+1. Global Data
+
+int num;	//0
+
+
+thread1()
+{
+	while(1)
+	{	
+		
+		num++;		//write
+		
+		//signal to t2
+		
+		//wait for reciv signal from t2
+	}
+}
+
+thread2()
+{
+	while(1)
+	{
+		signal_rec
+		
+		printf("%d-\n",num);		//read
+		
+		singal to t1
+	}
+}
+	//Both thread in same process running , can sahre global data, 
+	//1- 
+	//2- 
+	//3-
+	//4-
+	//5-
+
+	//Both thread in same process running , can sahre global data, 
+	//1-1-1, 
+	//2-2-2-, 
+	//3-
+	//5-5-5-5-5-5...
+
+main ()
+{
+	t1 = pthread_create()
+	
+	t2 = pthread_create()	
+}
+
+```
+
+
 ## Company : HARMAN | Round - 3 | 2.15 hr
 ### QUESTION : 91 : Measure the 4l water by using 3l and 5l jug
 ```

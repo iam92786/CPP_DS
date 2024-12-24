@@ -3,20 +3,16 @@
 
 
 ## Company : COMP | Round - 3 | 2.15 hr
-### QUESTION : 9999 : 
+### QUESTION : 104 : 
 
 
 
 ## Company : QCOM | smeet
-### QUESTION : 9999 : 
-
-//FEEDBACK : SPMI, THREAD communication, function pointer usecase.
-
-// 
+### QUESTION : 103 : THREAD communication, function pointer usecase.
 
 
 
-### QUESTION : 9999 : every ele in a array have there copy in the same array. only one ele is unique? In single loop. eg : 1 1 2 2 3 3 5
+### QUESTION : 102 : Every element in a array have exact one copy in the same array. only one ele is unique. find that one uniqe element ? solve single loop. eg : 1 1 2 2 3 3 5
 int main (void)
 {
 	int arr[] = {1 1 2 2 3 3 5};
@@ -30,7 +26,7 @@ int main (void)
 	
 }
 
-### QUESTION : 9999 : every ele in a array have there copy in the same array. only one ele is unique? eg : 1 1 2 2 3 3 5
+### QUESTION : 101 : Every element in a array have exact one copy in the same array. only one ele is unique. find that one uniqe element ? eg : 1 1 2 2 3 3 5
 ```
 int main (void)
 {
@@ -52,7 +48,7 @@ int main (void)
 ```
 
 
-### QUESTION : 9999 : Reverse the Linked List in bunch
+### QUESTION : 100 : Reverse the Linked List in bunch
 ```
 in  -> 1 2 3 4 5 6 
 out -> 3 2 1 6 5 4
@@ -71,9 +67,34 @@ void reverse_list()
 		
 	
 }
+or
+//display in the bunch or three element in reverse order
+void reverse_list()
+{
+	struct node* trav = lptr;	
+	int arr[3];
+	int count = 0;
+	while(trav)	//1 2 3
+	{
+		count++;	
+		
+		//store linked list data in to the array;
+
+		arr[count] == trav->data;
+		trav = trav->next;
+
+		if(count == 3)
+		{
+			printf("Print the array")
+			count--
+			count = 0
+			//make array zero	
+		}		 
+	}
+}
 ```
 
-### QUESTION : 9999 : SLLL RIverse the linked list ?
+### QUESTION : 99 : SLLL Riverse the linked list ?
 ```
 in 1 2 3 4 5
 out 5 4 3 2 1
@@ -107,34 +128,8 @@ struct node* reverse_list(struct node *head)
 	return prev	//head
 }
 
-void reverse_list()
-{
-	struct node* trav = lptr;	
-	int arr[3];
-	int count = 0;
-	while(trav)	//1 2 3
-	{
-		count++;	
-		
-		//store linked list data in to the array;
 
-		arr[count] == trav->data;
-		trav = trav->next;
-
-		if(count == 3)
-		{
-			printf("Print the array")
-			count--
-			count = 0
-			//make array zero
-		
-		}		 
-	}
-
-}
 ```
-
-
 
 ## Company : Sasken Technolog | Round - 2 | 1.45 hr
 ### QUESTION : 98 : Datatype in 32 bit machine and 64-bit machine

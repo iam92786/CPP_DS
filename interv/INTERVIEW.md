@@ -6,6 +6,136 @@
 ### QUESTION : 9999 : 
 
 
+
+## Company : QCOM | smeet
+### QUESTION : 9999 : 
+
+//FEEDBACK : SPMI, THREAD communication, function pointer usecase.
+
+// 
+
+
+
+### QUESTION : 9999 : every ele in a array have there copy in the same array. only one ele is unique? In single loop. eg : 1 1 2 2 3 3 5
+int main (void)
+{
+	int arr[] = {1 1 2 2 3 3 5};
+
+	int len = sizeof(arr)/4;
+	
+	for(int i = 0, int j = ; i < sizeof(arr)/4;i++)				5
+	{
+
+	}
+	
+}
+
+### QUESTION : 9999 : every ele in a array have there copy in the same array. only one ele is unique? eg : 1 1 2 2 3 3 5
+```
+int main (void)
+{
+	int arr[] = {1 1 2 2 3 3 5};
+	
+	for(int i = 0; i < sizeof(arr)/4;i++)				5
+	{
+		for(j = 0; j < sizeof(arr)/4; j++)			5 1 1 2 2 3
+		{
+			if(i == j)
+				continue;
+			if(arr[i] = arr[j])
+				break;
+		}
+		if(j >= sizeof(arr)/4)
+			printf("Unique Elements arr[i]\n");
+	}
+}
+```
+
+
+### QUESTION : 9999 : Reverse the Linked List in bunch
+```
+in  -> 1 2 3 4 5 6 
+out -> 3 2 1 6 5 4
+SLLL
+
+
+void reverse_list()
+{
+	int temp = 0;
+	
+	struct node* front = head;
+	struct node* prev = head;
+	
+	while(front -> next)
+	{
+		
+	
+}
+```
+
+### QUESTION : 9999 : SLLL RIverse the linked list ?
+```
+in 1 2 3 4 5
+out 5 4 3 2 1
+
+addNodeatFirst()
+
+curr = 0 	1 2 3 4 5
+curr = 1      	2 1 3 4 5
+curr = 2	3 2 1 4 5
+curr = 3	4 3 2 1 5
+		
+struct node* reverse_list(struct node *head)
+{
+	struct node* curr = head;
+	struct node* prev = head;
+	struct node* next = head;
+	//head = 0x11; 	
+
+
+	while(trav->next)
+	{
+		trav = trav->next;	//2
+		next = trav->next;	//3
+		
+		temp = trav;
+
+		head->next = next;	//1 -> 3	
+		temp->next = head;	//2 -> 1-> 3
+		head = temp;		//head 2 -> 1-> 3
+	}			
+	return prev	//head
+}
+
+void reverse_list()
+{
+	struct node* trav = lptr;	
+	int arr[3];
+	int count = 0;
+	while(trav)	//1 2 3
+	{
+		count++;	
+		
+		//store linked list data in to the array;
+
+		arr[count] == trav->data;
+		trav = trav->next;
+
+		if(count == 3)
+		{
+			printf("Print the array")
+			count--
+			count = 0
+			//make array zero
+		
+		}		 
+	}
+
+}
+```
+
+
+
 ## Company : Sasken Technolog | Round - 2 | 1.45 hr
 ### QUESTION : 98 : Datatype in 32 bit machine and 64-bit machine
 ```

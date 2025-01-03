@@ -3,9 +3,91 @@
 
 
 ## Company : COMP | Round - 3 | 2.15 hr
-### QUESTION : 104 : 
+### QUESTION : 109 : 
 
 
+## HARMAN | round - x | Round - 4 | Clear
+### QUESTION : 108 : self prefential structure
+```
+//self prefential structure
+
+struct list
+{
+
+	struct list next;	//
+};
+
+```
+### QUESTION : 107 : //alloacte array of 5 int and explain , and explain 
+```
+//alloacte array of 5 int and explain 
+process p1;
+
+int *ptr = (int *)malloc(sizeof(int) * 5);
+
+free(ptr);
+
+mm_struct
+{
+	//memory related information
+}
+```
+### QUESTION : 106 : Endiness
+```
+//endinaness
+int num = 0x1;	//
+		100 101 102 103
+
+if((char *)num)
+	printf("Little Endina");
+else
+	printf("Big Endian")
+```
+### QUESTION : 105 : Declaration and defination, static and dynamic lib
+```
+	
+Decl And Def
+
+int num;	//decl
+num = 10;	//
+
+
+#include<stdio.h>	//declaration header file
+
+
+.so 	fun def
+.h	decl	--> func signiture
+doc func
+
+
+```
+### QUESTION : 104 : Device Driver 
+```
+
+open("/dev/lcd");
+write(fd, "HELLOW WORLD")
+
+
+
+init		--> all the task wihich ONE Time, alloc major. sysfs entry, cdev struct, LCD INit
+
+
+exit
+
+
+struct fops
+{
+	open, write, ioctl
+}
+
+write_lcd
+
+{
+	LDC H/W bit operation
+
+}
+
+```
 
 ## Company : QCOM | smeet
 ### QUESTION : 103 : THREAD communication, function pointer usecase.

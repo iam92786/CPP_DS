@@ -7,15 +7,10 @@
 
 ## Company : QCOM | Round - 2 | 1.40 hr | Arshad | Clear
 
-### QUESTION : 109 : Does every process have its Page table?
+### QUESTION : 114 : Does every process have its Page table?
 
-### QUESTION : 109 : Can we access address of Process P1, In Process P2, Can you tell technicle Background. What happened and Why? 
+### QUESTION : 113 : Can we access address of Process P1, In Process P2, Can you tell technicle Background. What happened and Why? 
 - Page tables are maintained per process, mapping virtual to physical memory. The OS ensures each process has a private page table, preventing direct access to another process’s memory.
-
-### QUESTION : 109 : 
-
-
-
 
 ### QUESTION : 112 : Implement an First in Last out cache of size = 3
 ```

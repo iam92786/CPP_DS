@@ -1,12 +1,196 @@
 # Intervew Question
 
-
-
 ## Company : COMP | Round - 3 | 2.15 hr
 ### QUESTION : 109 : 
 
 
-## HARMAN | round - x | Round - 4 | Clear
+
+## Company : QCOM | Round - 2 | 1.40 hr | Arshad | Clear
+### QUESTION : 112 : Implement an First in Last out cache of size = 3
+```
+//touch(1)
+//touch(2)
+//touch(5)
+//touch(3) 
+//display(): 3 5 2
+#include <stdio.h>
+//stak = [0 1 2]
+//      
+
+#define SIZE 3
+int ind = 2;
+
+void touch (int arr, int data)
+{
+    printf("touch()\n");
+    arr[ind] = data;
+    --ind;
+}
+void display()
+{
+    for (int i = 0; i < )
+}
+
+int main()
+{
+    printf("Hello World");
+    int arr[SIZE];
+//touch(1)
+//touch(2)
+//touch(5)
+//touch(3)
+    return 0;
+}
+```
+## Company : QCOM | Round - 1 | 2.00 hr | Arshad | Clear
+### QUESTION: 111 : Given a 32-bit integer, Find the set bit number.
+```
+#include <stdio.h>
+#include <stdlib.h>
+eg : 0010 = 1
+    0111 = 3
+    num = 0xf1      //1111 0001 = 5 set bit
+    sum = 0;
+    sum = sum + (num & (0x1 << n)); 
+```
+### QUESTION: 110 : // given an array how to find max sum array;
+```
+//1. sort
+5,3,2,1,-1,-2
+
+//2. reduced the array size
+5,3,2,1
+
+//3. Binary
+
+
+Two pointer approch
+
+sum 
+
+p1 = arr[0], p2 = arr++
+p2 = arr[1], p2 = arr++
+
+1,-1,2,3,5,-2 ; ele = 6 
+sol = 10 (10 = )
+
+6 = 6,  //single element sub array
+5 = 6-1,    //2 element sub array
+4 = 6-2,    //3 element sub array
+3 = 6-3,
+2 = 6-4,
+1 = 6-5,
+
+i = 0;  //singlr ele
+find the max                    
+
+i = 1   //2 ele
+p1 = arr[0], p2 = arr[1]
+p1++, p2++
+sum();
+int max ///update if(>)
+
+i = 2
+p1 = arr[0], p2 = arr[2]
+max = sum(arr,0, 2 );
+{
+    for(int i = p1, i <= p2; p1++)
+    {
+        max = max + *(arr+p1);
+    }
+    return max;
+}
+int max ///update if(>)
+
+
+
+sub array = 21
+sub array = a + (n-1) *d
+ex : Sn = n/2 [a+(n-1)*d]
+s = n*(n+1)/2
+        
+
+```
+### QUESTION: 109 : Create a double linked list, Insert an element, and print
+
+```
+struct node
+{
+    struct node *next;
+    struct node *prev;
+    int data;
+};
+
+struct node* CreatNode(int n_count, int val)
+{
+    //checklist is empty
+    struct node *head = NULL;
+    
+
+    for(int i = 0; i < n_count; i++)
+    {
+        //create node
+        struct node *newnode = (struct node *)malloc(sizeof(struct node));
+        if(newnode == NULL)
+        {
+            printf("malloc() failed!\n");
+            return;
+        }
+        newnode->data = (val--);
+        newnode->next = NULL;
+        newnode->prev = NULL;
+        
+        //update the list
+        if(head == NULL)//Empty list
+        {
+            head = newnode;
+            printf("New node added = %d\n",newnode->data);
+
+        }
+        else
+        {   //List is not empty
+            //Add node at first pos
+            //head  n1  n2
+            newnode->next = head;
+            newnode->prev = head->prev;
+            head = newnode;
+            printf("New node added = %d\n",newnode->data);
+        }
+    }
+    return head;   
+}
+
+void display(struct node *lptr)
+{
+    printf("display() : Entry\n");
+    
+    //check list is empty
+    if(lptr == NULL)
+    {
+        printf("display() : List is empty\n");
+        return;
+    }
+    //traverse through the list
+    struct node *trav = lptr;
+    while(trav)
+    {
+        printf("%d ",trav->data);
+        trav = trav->next;
+    }
+}
+
+int main()
+{
+    printf("Hello World\n");
+    struct node *l1;
+    l1 = CreatNode(5, 10);
+    display(l1);
+
+    return 0;
+}
+```
+
+## HARMAN | Round - 4 | Clear
 ### QUESTION : 108 : self prefential structure
 ```
 //self prefential structure

@@ -1,8 +1,21 @@
 # Intervew Question
 
 ## Company : COMP | Round - 3 | 2.15 hr
-### QUESTION : 109 : 
+### QUESTION : 109 : Virtual address and physical address ?
+- Page table do translation of physical to virtual and vice versa.
+1. Page table is 4 layers tabel (for x86 architecture)
+2. | PGD | PUD | PMD | PTE | Offset |
+3. PTE : Page table entry -> It have information like : page frame number, present bit, dirty bit, R/W bit, accessed bit etc.
+4. PGD : Page global Directory, PUpperD, PMiddleD.
+5. Every process have its own page table, PT assign when a child process is created by using fork().
+6. Each process have mm_struct in kernel, mm_struct store the address of the top top-level PGD.
+   struct mm_struct {
+    pgd_t *pgd;
+   };
 
+7. During context switching CPU Load prcess in CPU and same process Page table in MMU.
+8. Thread of same process share same address space.
+9. 
 
 
 ## Company : QCOM | Round - 2 | 1.40 hr | Arshad | Clear

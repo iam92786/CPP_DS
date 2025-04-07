@@ -15,7 +15,6 @@
 
 7. During context switching CPU Load prcess in CPU and same process Page table in MMU.
 8. Thread of same process share same address space.
-9. 
 
 
 ## Company : QCOM | Round - 2 | 1.40 hr | Arshad | Clear

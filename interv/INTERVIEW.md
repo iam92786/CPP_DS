@@ -9,7 +9,8 @@
 4. PGD : Page global Directory, PUpperD, PMiddleD.
 5. Every process have its own page table, PT assign when a child process is created by using fork().
 6. Each process have mm_struct in kernel, mm_struct store the address of the top top-level PGD.
-```   struct mm_struct {
+```
+struct mm_struct {
     pgd_t *pgd;
    };
 ```

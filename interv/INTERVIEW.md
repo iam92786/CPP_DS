@@ -1,3 +1,9 @@
+# Goal
+## G2025
+1. cpp Template
+2. Yocto Build system
+3. Linux concept++
+
 # Intervew Question
 
 ## Company : COMP | Round - 3 | 2.15 hr

@@ -12,7 +12,7 @@
 
 ## Company : QCOM | Round - 2 | 1.40 hr | Arshad | Clear
 
-### QUESTION : 109 : Virtual address and physical address ?
+### QUESTION : 115 : Virtual address and physical address ?
 ```
 - Page table do translation of physical to virtual and vice versa.
 1. Page table is 4 layers tabel (for x86 architecture)
